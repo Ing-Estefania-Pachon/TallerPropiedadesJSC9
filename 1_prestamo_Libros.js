@@ -31,5 +31,5 @@ function libro(titulo, autor){
 // 4. Probar el préstamo dos veces:
 let miLibro = new libro("La sed", "Enrique Patiño");
 
-miLibro.prestar(); // Primera vez (debería prestarse)
-miLibro.prestar(); // Segunda vez (debería mostrar error)
+miLibro.prestar(); 
+miLibro.prestar();

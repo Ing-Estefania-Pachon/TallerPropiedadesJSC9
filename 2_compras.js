@@ -5,7 +5,7 @@
 const prompt = require("prompt-sync")();
 
 // 1.Usa el constructor ListaCompras para crear una lista vacía (this.productos = []).
-function listaCompras(prouctos){
+function listaCompras(productos){
     this.productos = [];
     
     // 2.Añade 3 productos con el método agregar().
@@ -13,9 +13,8 @@ function listaCompras(prouctos){
         
         while (true){
         
-            let ingresar = prompt("¿Quiere ingresar nuevos producto a su carrito? Escriba si o no").toLocaleLowerCase();
+            let ingresar = prompt("¿Quiere ingresar nuevos producto a su carrito? Escriba si o no: ").toLocaleLowerCase();
             
-        
             if (ingresar === "si"){
                 let nuevoProducto = prompt("Ingrese un nuevo producto: ");
                 this.productos.push(nuevoProducto);
@@ -45,5 +44,5 @@ function listaCompras(prouctos){
 
 let miLista = new listaCompras();
 
-miLista.agregar();   // Aquí se ingresan los 3 productos
-miLista.mostrar();   // Aquí se muestran con numeración
+miLista.agregar();   
+miLista.mostrar();   
