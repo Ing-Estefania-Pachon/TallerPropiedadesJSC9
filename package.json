@@ -1,0 +1,15 @@
+{
+  "name": "tallerpropiedadesjsc9",
+  "version": "1.0.0",
+  "description": "🧪 Laboratorio: Propiedades y Objetos en JavaScript\r Este laboratorio práctico refuerza el uso de constructores, objetos, arrays y condicionales en JavaScript. Contiene 4 ejercicios breves:",
+  "main": "1_prestamo_Libros.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
